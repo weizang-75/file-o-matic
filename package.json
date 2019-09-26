@@ -2,13 +2,13 @@
   "name": "file-o-matic",
   "description": "Dockerised node app with Makefile which does stuff we need",
   "version": "0.0.1",
-  "main": "./src/index.js",
+  "main": "server.js",
   "author": {
     "name": "deutscher-chris",
     "email": "christoph.dorward.1977@gmail.com"
   },
   "scripts": {
-    "start": "clear && echo file-o-matic"
+    "start": "node server.js"
   },
   "license": "OSL-3.0",
   "repository": {
