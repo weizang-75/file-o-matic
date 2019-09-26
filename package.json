@@ -8,6 +8,7 @@
     "email": "christoph.dorward.1977@gmail.com"
   },
   "scripts": {
+    "react": "clear && cd ./react/file-o-matic && yarn start",
     "start": "node server.js"
   },
   "license": "OSL-3.0",

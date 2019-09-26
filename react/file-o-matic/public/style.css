@@ -1,0 +1,81 @@
+html, body { 
+   height: 100%;
+   margin: 0; padding: 0;
+   font-family: 'Helvetica';
+   background: rgba(0,0,0, 0.85);
+   color: rgba(255,255,255, 0.85);
+   font-size: 1rem;
+}
+a {
+  color: rgba(255,255,255, 0.95);
+  text-decoration: none;
+}
+.html {
+  margin: auto;
+  max-width: 460px;
+}
+.header {
+  display: flex;
+  margin: 8px;
+  padding-top: 8px;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.header .icon{
+  height: 45px; 
+  width: 45px;
+  margin-right: 16px;
+}
+.image {
+  width: 100%;
+  margin: 8px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0; padding: 0;
+}
+.main {
+   display: flex;
+   /* border: 1px solid pink; */
+
+}
+.links {
+  /* border: 1px solid lightblue; */
+  /* flex-grow: 1; */
+  min-width: 150px;
+}
+.sections{
+  /* border: 1px solid yellow; */
+  /* flex-grow: 1; */
+  padding: 8px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 8px;
+}
+
+
+
+.links a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background: rgba(0,0,0,0.1);
+  font-size: 0.8rem;
+}
+.links a:hover {
+  background: rgba(0,0,0,0.2);
+}
+.link{
+  margin: 4px;
+  padding: 8px;
+}
+.centered {
+   text-align: center;
+}
