@@ -1,33 +1,28 @@
 
 # File O Matic
 
-Dockerised node app with Makefile which does stuff we need.
+Is Dockerised Node Web App using Makefile. It does stuff we need like converting 
+a 50MB .GPX file into JSON and saving it to a NoSQL DB. Specifically it aims to;
 
-## TOC
-- **Docerfile**
-- **Makefile**
-- **package.json**
-- **/src**
-- **/output** 
+- Convert .GPX files to JSON and save to DB
+- Convert Sketch SVG to JSX with handlebar templates
 
-## Requirements
+## Install
 
-- convert .gpx files to JSON and save to Firestore
-- convert Sketch SVG to JSX with handlebar templating
-- convert .fit files to JSON
-- convert imput to icon set
+- [Makefile](./Makefile) `make`
+- [Dockerfile](./Dockerfile)
+- [package.json](./package.json)
+- [/server.js](./server.js)
 
-## Stack
+## Tech
 
-- [Node Docker container](https://hub.docker.com/_/node)
-- Makefile build pipeline
-- React UI
-
-### Progress
-
-- errr, yeh. We've started a new repo :)
+- Makefile
+- [Official Node Docker Image](https://hub.docker.com/_/node)
+- ES6
+    - Node 10
+    - React
 
 ### Open Source
 
-This is a public repo and you're welcome to 
+This is a public repo & you're welcome to 
 [contribute](https://listingslab.com/open-source/contribute)
