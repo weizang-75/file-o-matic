@@ -3,6 +3,13 @@
 
 Dockerised node app with Makefile which does stuff we need.
 
+## TOC
+- **Docerfile**
+- **Makefile**
+- **package.json**
+- **/src**
+- **/output** 
+
 ## Requirements
 
 - convert .gpx files to JSON and save to Firestore
@@ -12,7 +19,7 @@ Dockerised node app with Makefile which does stuff we need.
 
 ## Stack
 
-- NodeJS Docker container
+- [Node Docker container](https://hub.docker.com/_/node)
 - Makefile build pipeline
 - React UI
 

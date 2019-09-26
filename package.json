@@ -2,9 +2,10 @@
   "name": "file-o-matic",
   "description": "Dockerised node app with Makefile which does stuff we need",
   "version": "0.0.1",
+  "main": "./src/index.js",
   "author": {
-    "name": "listingslab",
-    "email": "listingslab@gmail.com"
+    "name": "deutscher-chris",
+    "email": "christoph.dorward.1977@gmail.com"
   },
   "scripts": {
     "start": "clear && echo file-o-matic"
