@@ -1,0 +1,23 @@
+{
+  "name": "file-o-matic",
+  "description": "Dockerised node app with Makefile which does stuff we need",
+  "version": "0.0.1",
+  "author": {
+    "name": "listingslab",
+    "email": "listingslab@gmail.com"
+  },
+  "scripts": {
+    "start": "clear && echo file-o-matic"
+  },
+  "license": "OSL-3.0",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/listingslab-software/file-o-matic.git"
+  },
+  "keywords": [
+    "Node",
+    "React",
+    "Docker",
+    "Makefile"
+  ]
+}
