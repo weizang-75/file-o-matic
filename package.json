@@ -1,7 +1,7 @@
 {
   "name": "file-o-matic",
   "description": "Dockerised node app with Makefile which does stuff we need",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "server.js",
   "author": {
     "name": "deutscher-chris",
