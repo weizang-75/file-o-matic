@@ -1,0 +1,22 @@
+{
+  "name": "sketch2jsx",
+  "version": "0.0.2",
+  "description": "Node utility which converts SVGs exported from Sketch into usable JSX",
+  "scripts": {
+    "start": "clear && node index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/listingslab-software/sketch2jsx.git"
+  },
+  "author": {
+    "name": "listingslab",
+    "email": "listingslab@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "svgo": "^1.3.0"
+  }
+}
