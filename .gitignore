@@ -4,6 +4,7 @@ __dev
 
 # dependencies
 /node_modules
+/react/file-o-matic/node_modules
 
 # builds
 output
